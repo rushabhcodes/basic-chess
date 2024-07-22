@@ -50,6 +50,7 @@ const renderBoard = () => {
                     const targetSquare = { row: rowIndex, column: squareIndex };
                     const move = {
                         from: [sourceSquare.row, sourceSquare.column],
+                        
                         to: [targetSquare.row, targetSquare.column]
                     };
                     handleMove(move);
